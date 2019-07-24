@@ -38,6 +38,6 @@ def update_fig(*args):
     return im
 
 
-ani = animation.FuncAnimation(fig, update_fig, interval = 1)
+ani = animation.FuncAnimation(fig, update_fig, interval = 60)
 
 plt.show()
